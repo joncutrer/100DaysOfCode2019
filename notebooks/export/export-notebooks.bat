@@ -29,7 +29,6 @@ if exist _output (
 
 )
 
-
 rem create custom.css if it does not exist
 if exist _output\custom.css (
     rem file exists, do nothing
