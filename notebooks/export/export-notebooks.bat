@@ -38,7 +38,7 @@ if exist _output\custom.css (
 )
 
 rem Run nbconvert with a custom template (to exlude inline css) to export all notebooks as html
-jupyter-nbconvert ..\*\*.ipynb --template=nocss --output-dir=_output
+jupyter-nbconvert ..\*.ipynb --template=nocss --output-dir=_output
 
 rem Replace all spaces with _underscores in all exported html filenames. 
 cd _output
